@@ -1,0 +1,60 @@
+@media screen and (max-width:767px) {
+
+    .contact_info ul {
+        justify-content: center;
+    }
+
+    .navbar-toggler {
+        border: 0;
+        padding: 15px;
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+
+    .main_menu li a {
+        border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+    }
+
+}
+
+/* -------------------- slider ------------------------ */
+
+/* @media screen and  (max-width: 576px) {
+        .slider {
+            height: 100px;
+            width: 100px;
+           
+        }
+    } */
+
+@media screen and (max-width: 765px) {
+
+    .carousel-item img {
+        height: 90vh;
+        object-fit: cover;
+    }
+
+    .theme-btn {
+        padding: 5px 10px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        display: none;
+    }
+   
+
+}
+
+@media screen and (min-width:762px) {
+    .carousel-caption  h5 ,h3 {
+        font-size: 80px;
+        font-weight: 600;
+    }
+    
+    .carousel-caption p {
+        font-size: 25px;
+    }
+}
